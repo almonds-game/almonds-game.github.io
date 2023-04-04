@@ -14,20 +14,16 @@
     <!--
       <a href="https://www.therealzebos.com/goldenticket" target="_blank" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
       -->
-    <script>
+    <script type="text/javascript">
       function sorpresa(){
-        var runOnce = localStorage.getItem("runOnce");
-        if (runOnce == null){
-          const links = ["https://www.therealzebos.com/goldenticket", "https://milk.com"]
-          var d = new Date();
-          var day = d.getDay();
-          runOnce = "true"; // Cannot store anything other than strings without jumping thru hoops
-          localStorage.setItem("runOnce", runOnce);
-
-        }
+        const links = ["https://www.therealzebos.com/goldenticket", "https://milk.com", "https://searx.be"];
+        var d = new Date();
+        var day = d.getDay();
+        window.open(links[day], "_blank");
       }
     </script>
-    <a onclick="sorpresa()" title="such mystique, you must click!" style="color:#FFFFFF;">the almighty link.</a>
-  
+    <div style="display: flex; justify-content: center; padding-top: 13%">
+    <a href="" onclick="javascrip:sorpresa();" title="such mystique, you must click!"><span style="color:#FFFFFF; text-decoration: underline;">the almighty link.</span></a>
+    </div>
     </body>
 </html>
