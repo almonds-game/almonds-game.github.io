@@ -15,15 +15,18 @@
       <a href="https://www.therealzebos.com/goldenticket" target="_blank" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
       -->
     <script>
-      var links = [""]
-      const d = new Date()
-      let day = d.getDay()
-
       function sorpresa(){
-        document.write(day);
+        var runOnce = localStorage.getItem("runOnce");
+        if (runOnce == null){
+          const links = ["https://www.therealzebos.com/goldenticket", "https://milk.com"]
+          var d = new Date();
+          var day = d.getDay();
+          runOnce = "true"; // Cannot store anything other than strings without jumping thru hoops
+          localStorage.setItem("runOnce", runOnce);
+        }
       }
     </script>
-    <a onclick="sorpresa()" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
+    <a onclick="sorpresa()" title="such mystique, you must click!" style="color:#FFFFFF;">the almighty link.</a>
   
     </body>
 </html>
