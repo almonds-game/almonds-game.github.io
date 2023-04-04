@@ -15,11 +15,15 @@
       <a href="https://www.therealzebos.com/goldenticket" target="_blank" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
       -->
     <script>
-      function hello(){
-        document.write("Hello");
+      var links = [""]
+      const d = new Date()
+      let day = d.getDay()
+
+      function sorpresa(){
+        document.write(day);
       }
     </script>
-    <a onclick="hello()" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
+    <a onclick="sorpresa()" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
   
     </body>
 </html>
