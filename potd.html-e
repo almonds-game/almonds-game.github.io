@@ -6,7 +6,7 @@
     <h1 style="text-align: center; color:#FFFFFF">Page of the Day!</h1>
   </head>
 
-  <body style="background-color:#1F2229; color:#FFFFFF">
+  <body style="background-color:#1F2229; font-family:monaco; color:#FFFFFF">
   
     <div style="text-align: center">
       <p><br>Click the link below, as it may hold the answers you're looking for...</p>
