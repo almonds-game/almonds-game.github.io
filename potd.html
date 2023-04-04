@@ -16,7 +16,15 @@
       -->
     <script type="text/javascript">
       function sorpresa(){
-        const links = ["https://www.therealzebos.com/goldenticket", "https://milk.com", "https://searx.be"];
+        const links = [
+          "https://www.therealzebos.com/goldenticket",                                          // Sunday
+          "https://milk.com",                                                                   // Monday
+          "https://searx.be",                                                                   // Tuesday
+          "https://www.youtube.com/watch?v=djD9fSSqXeA",                                        // Wednesday
+          "https://youtu.be/CkFeggecUiQ"                                                        // Thursday
+          "https://www.youtube.com/watch?v=AjnV0OtIM5g",                                        // Friday
+          "https://www.youtube.com/watch?v=EiESJHCcWRs&list=PLA0MyOqG7qq-He0VScSKU7CS7NPRNU4fJ" // Saturday
+        ];
         var d = new Date();
         var day = d.getDay();
         window.open(links[day], "_blank");
