@@ -4,22 +4,94 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0"> 
     <link rel="stylesheet" href="no_style.css">
+    <base target="_blank">
     <title>Meet Them All</title>
-    <style>
-      #parenthesis {
-        display: inline-block;
-        font-size: 9.5px;
-      }
-      #desc {
-        margin-left: 30px;
-        border-color: #1F2229;
-      }
-      a {font-size: 10px; text-decoration: underline;}
+    <!-- 30 px for desc-->
+    <style> 
       p {line-height:0.5;}
-      h2 {display: inline-block; padding-left: 20.1%;}
+      h2 {display: inline-block; padding-left: 20.1%; font-size: 1.7vw;}
       div {border: 1.5px solid white;}
+      
+      #descContainer {
+        margin-left:20.1%;
+        width:59.6%;
+      }
+
+      @media only screen and (max-width: 414px) {
+        a {font-size: 1vw; text-decoration: underline; color: #FFFFFF}
+        
+        #creds {
+          font-size: 6vw;
+          text-align: center;
+        }
+
+        #parenthesis {
+          display: inline-block;
+          font-size: 0.8vw;
+        }
+        
+        #desc {
+          padding-left: 2vw;
+          border-color: #1F2229;
+        }
+
+        #categoryDef {
+          font-size: 1.5vw;
+        }
+
+        #categoryTxt {
+          font-size: 1.03vw;
+          padding-left: 4vw;
+        }
+        
+        #descSep {
+          line-height: 5vw;
+        }
+
+        #descTxt {
+          font-size: 1vw;
+          line-height: 4vw;
+        }
+      }
+
+      @media only screen and (min-width: 415px) {
+        a {font-size: 1vw; text-decoration: underline; color: #FFFFFF}
+        
+        #creds {
+          text-align: center;
+        }
+
+        #parenthesis {
+          display: inline-block;
+          font-size: 0.8vw;
+        }
+        
+        #desc {
+          margin-left: 2vw;
+          border-color: #1F2229;
+          width: 59.6%;
+        }
+
+        #categoryDef {
+          font-size: 1.3vw;
+        }
+      
+        #categoryTxt {
+          font-size: 1.03vw;
+          padding-left: 1vw;
+        }
+
+        #descSep {
+          line-height: 2.3vw;
+        }
+
+        #descTxt {
+          font-size: 1.1vw 
+        }
+      }
+
     </style>
-    <h1 style="text-align:center">Credits</h1>
+    <h1 id="creds">Credits</h1>
   </head>
   
   <body>
@@ -28,16 +100,17 @@
 
     <h2 style="line-height:0.1; color:#6975F7">Jose&nbsp</h2>
     <p id="parenthesis">(</p>
-      <a href="https://instagram.com/_jxse_._/" target="_blank" style="color:#FFFFFF">instagram</a>
+    <a href="https://instagram.com/_jxse_._/">instagram</a>
     <p id="parenthesis">)</p>
 
     <!-- in pixels: 802px -->
-    <div style="margin-left:20.1%; width:59.6%;">
+    <div id="descContainer">
       <div id="desc">
-      <p>Credit:</p>
-      <p style="padding-left:20px; line-height:0.3; font-size:14px">He's in the game as Jose!</p>
-
-      <p style="font-size:15px"><br>Test description, words words words.</p>
+        <p id="descSep">
+          <span id="categoryDef">Credit:</span><br>
+          <span id="categoryTxt">He's in the game as Jose! and he has ALWAYS seen a sailor in the middle of the moon</span>
+          <p id="descTxt"><br>Test description, words words words.</p>
+        </p>
       </div>
     </div>
     
@@ -45,8 +118,8 @@
 
     <h2 style="color:#A04AF6"><br>ME.&nbsp&nbsp</h2>
       <p id="parenthesis">(</p>
-        <a href="https://instagram.com/the_69th_random_person/" target="_blank" style="color:#FFFFFF">instagram,</a>
-        <a href="https://www.youtube.com/@the_person" target="_blank" style="color:#FFFFFF">youtube</a>
+        <a href="https://instagram.com/the_69th_random_person/">instagram,</a>
+        <a href="https://www.youtube.com/@the_person">youtube</a>
       <p id="parenthesis">)</p>
   </body>
 </html>

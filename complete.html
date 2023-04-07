@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="no_style.css">
     <style>
-      ul { list-style-type: none; margin: 0; padding-left:44.32%;}
-      li a {display: block; width: 30%;}
+      
+      @media only screen and (max-width: 414px) {
+        ul { list-style-type: none; margin: 0; padding-left:35vw;}
+        li a {display: block; width: 58%;}
+        #level {padding-right: 5.63vw; text-align: center; color:#8CF516;} 
+      }
+
+
+      @media only screen and (min-width: 415px) {
+        ul { list-style-type: none; margin: 0; padding-left:43.8vw;}
+        li a {display: block; width: 100%;}
+        
+        #level {padding-right: 5.63vw; text-align: center; color:#8CF516;} 
+      }
+
+      
+
     </style>
 
     <title>Almonds Website?!?!</title>
@@ -17,7 +32,7 @@
   <body>
     <div style="" class="container">
       <div style="line-height: 1.5; color:#FFFFFF">
-        <p style="padding-right: 5.7%; text-align: center; color:#8CF516;"><br>Ver: 1.0.1</p>
+        <p id="level"><br>Ver: 1.0.1</p>
         
         <ul>
           <li><a href="downloads/Almonds_Demo_101.zip" download="Almonds_Demo_100">1.&nbsp;New Game<br></a></li>
