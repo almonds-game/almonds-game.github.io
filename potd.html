@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <link rel="stylesheet" href="no_style.css">
     <title>Ooh, what's this?</title>
+    <style>
+      @media only screen and (max-width: 414px) {
+        #bruh {
+          font-size: 10vw
+          color: blue;
+        }
+      }
+
+      @media only screen and (min-width: 415px) {
+        #bruh {
+          font-size: 20vw;
+        }
+      }
+    </style> 
     <div style="border: 1.5px solid white; width: 50%; display: flex; justify-content: center; margin: auto;">
-    <h1 style="text-align: center; color:#FFFFFF">Page of the Day!</h1>
+    <p id="bruh">Page of the Day!</p>
     </div>
   </head>
 
   <body style="background-color:#1F2229; color:#FFFFFF">
   
     <div style="text-align: center">
-      <p>Click the link below, as it may hold the answers you're looking for...</p>
-      <p style="font-size:8px; line-height:0">...or just things the guy who made this site happens to like/find interesting</p>
-      <p style="font-size:4px; line-height:1">...or he just hates it idk</p>
+      <p style="line-height: 1vw">Click the link below, as it may hold the answers you're looking for...</p>
+      <p style="font-size:8px; line-height:0.3vw">...or just things the guy who made this site happens to like/find interesting</p>
+      <p style="font-size:4px; line-height:1.5vw">...or he just hates it idk</p>
     </div>
     <!--
       <a href="https://www.therealzebos.com/goldenticket" target="_blank" title="such mystique, you must click!" style="color:#FFFFFF">the almighty link.</a>
@@ -36,7 +50,7 @@
       }
     </script>
     <div style="display: flex; justify-content: center; padding-top: 13%">
-    <a href="" onclick="javascript:sorpresa();" title="such mystique, you must click!"><span style="color:#FFFFFF; text-decoration: underline;">the almighty link.</span></a>
+      <a href="" onclick="javascript:sorpresa();" title="such mystique, you must click!"><span style="color:#FFFFFF; text-decoration: underline;">the almighty link.</span></a>
     </div>
     </body>
 </html>
