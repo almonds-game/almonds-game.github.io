@@ -88,7 +88,7 @@ html {
     background-color:#1e1e1e;
     color: #FFFFFF;
     font-family:"monaco";
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 
   div {
@@ -97,7 +97,7 @@ html {
     max-width: 30vw;
     padding: 0.85vw;
     line-height: 0vw;
-    border-radius: 1.5vw;
+    border-radius: 3vw;
     margin: 3.1vw;
     line-height: 0.01vw
   }
