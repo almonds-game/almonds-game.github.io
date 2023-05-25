@@ -3,82 +3,83 @@ html {
   overflow-x: hidden;
 }
 
-body {
-  max-width: 100%;
-  max-height: 0%;
-  background-color:#1e1e1e;
-  color: #FFFFFF;
-  font-family:"monaco";
-  font-size: 1vw;
-}
-
-p {
-  line-height: 0.1vw
-}
-
-div {
-  clear: both;
-  word-wrap: break-word;
-  max-width: 30vw;
-  padding: 0.5vw;
-  border-radius: 1vw;
-  margin: 3.1vw;
-}
-
-#send {
-  float: right;
-  background: #3c87fa;
-}
-
-#rec {
-  float: left;
-  background: #3c3c3c;
-}
-
-#circ {
-  float: right;
-  height: 1.8vw;
-  width: 1.8vw;
-  border-radius: 1.8vw;
-  background: #3c87fa;
-}
-
-@keyframes sendMsg {
-  from {
-    transform: translateY(45vw);
+@media only screen and (min-width: 415px) {
+  body {
+    max-width: 100%;
+    max-height: 0%;
+    background-color:#1e1e1e;
+    color: #FFFFFF;
+    font-family:"monaco";
+    font-size: 1vw;
   }
 
+  p {
+    line-height: 0.1vw
+  }
 
-  to {
+  div {
+    clear: both;
+    word-wrap: break-word;
+    max-width: 30vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    margin: 3.1vw;
+  }
+
+  #send {
+    float: right;
+    background: #3c87fa;
+  }
+
+  #rec {
+    float: left;
+    background: #3c3c3c;
+  }
+
+  #circ {
+    float: right;
+    height: 1.8vw;
+    width: 1.8vw;
+    border-radius: 1.8vw;
+    background: #3c87fa;
+  }
+
+  @keyframes sendMsg {
+    from {
+      transform: translateY(45vw);
+    }
+
+
+    to {
+      transform: translateX(61.85vw);
+    }
+  }
+
+  .sendCont {
+    animation-name: sendMsg;
+    animation-duration: 0.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
     transform: translateX(61.85vw);
   }
-}
-
-.sendCont {
-  animation-name: sendMsg;
-  animation-duration: 0.8s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  transform: translateX(61.85vw);
-}
 
 
+  /* pavlina text animations */
+  @keyframes recMsg {
+    from {
+      transform: translateX(-25vw);
+    }
 
-@keyframes recMsg {
-  from {
-    transform: translateX(-25vw);
+
+    to {
+      transform: translateX(0);
+    }
   }
 
-
-  to {
-    transform: translateX(0);
+  .recCont {
+    animation-name: recMsg;
+    animation-duration: 0.65s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
   }
 }
-
-.recCont {
-  animation-name: recMsg;
-  animation-duration: 0.65s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-}
-
