@@ -54,7 +54,7 @@ html {
 
   .sendCont {
     animation-name: sendMsg;
-    animation-duration: 0.8s;
+    animation-duration: 1.25s;
     animation-timing-function: ease;
     animation-delay: 0s;
     transform: translateX(61.85vw);
@@ -122,7 +122,7 @@ html {
 
   @keyframes sendMsg {
     from {
-      transform: translateY(45vw);
+      transform: translateY(230vw);
     }
 
 
@@ -133,7 +133,7 @@ html {
 
   .sendCont {
     animation-name: sendMsg;
-    animation-duration: 0.8s;
+    animation-duration: 1.25s;
     animation-timing-function: ease;
     animation-delay: 0s;
     transform: translateX(61.85vw);
