@@ -8,6 +8,7 @@ body {
 
 a {
   text-decoration: underline;
+  overflow: hidden;
   color: #FFFFFF;
 }
 
