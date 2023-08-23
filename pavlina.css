@@ -9,7 +9,7 @@ html {
     max-height: 0%;
     background-color:#1e1e1e;
     color: #FFFFFF;
-    font-family:"monaco";
+    font-family: monaco, "Courier New";
     font-size: 1vw;
   }
 
@@ -87,7 +87,7 @@ html {
     max-height: 0%;
     background-color:#1e1e1e;
     color: #FFFFFF;
-    font-family:"monaco";
+    font-family:"monaco", "Courier New";
     font-size: 4.5vw;
   }
 
