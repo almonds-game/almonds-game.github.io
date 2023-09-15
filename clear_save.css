@@ -1,9 +1,11 @@
+/* @import "cursor.css" */
 body {
   max-width: 100%;
   max-height: 0%;
   background-color: #1F2229;
   font-family: monaco, "Courier New";
   color: #774716;
+  cursor: url("img/blockCursor.png"), auto;
 }
 
 a {
@@ -15,6 +17,10 @@ a {
 p {
   color: #FFFFFF;
   line-height:0.5;
+}
+
+a:hover {
+  cursor: url("img/blockCursor.png"), auto;
 }
 
 div {border: 1.5px solid white;}

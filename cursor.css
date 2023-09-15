@@ -1,0 +1,7 @@
+body {
+  cursor: url("img/blockCursor.png"), auto;
+}
+
+a:hover {
+  cursor: url("img/blockCursor.png"), auto;
+}

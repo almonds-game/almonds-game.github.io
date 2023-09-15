@@ -4,6 +4,7 @@ body {
   background-color:#1F2229;
   font-family: monaco, "Courier New";
   color:#774716;
+  cursor: url("img/blockCursor.png"), auto;
 }
 
 a {
@@ -14,6 +15,10 @@ a {
 
 p {
   color: #FFFFFF;
+}
+
+a:hover {
+  cursor: url("img/blockCursor.png"), auto;
 }
 
 @media only screen and (max-width: 414px) {
