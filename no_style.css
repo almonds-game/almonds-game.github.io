@@ -20,3 +20,5 @@ p {
 a:hover {
   cursor: url("img/blockCursor.png"), auto;
 }
+
+::selection {background: #C6DEFC; color: #000000}

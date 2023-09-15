@@ -23,6 +23,8 @@ a:hover {
   cursor: url("img/blockCursor.png"), auto;
 }
 
+::selection {background: #C6DEFC; color: #000000}
+
 div {border: 1.5px solid white;}
 
 @media only screen and (max-width: 414px) {
