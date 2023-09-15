@@ -1,6 +1,13 @@
-/* @import "cursor.css" */
+html {
+  height: 100%; *
+  width: 100%;
+  padding: 0; margin: 0;
+  cursor: url("img/blockCursor.png"), auto;
+}
+
 body {
   max-width: 100%;
+  padding: 0; margin: 0;
   max-height: 0%;
   background-color: #1F2229;
   font-family: monaco, "Courier New";
@@ -20,14 +27,20 @@ p {
 }
 
 a:hover {
+  background: #C6DEFC;
+  color: #000000;
   cursor: url("img/blockCursor.png"), auto;
 }
 
-::selection {background: #C6DEFC; color: #000000}
+div {
+  border: 1.5px solid white;
+  height: 100%; *
+  width: 100%;
+  padding: 0; margin: 0;
+  cursor: url("img/blockCursor.png"), auto;
+}
 
-div {border: 1.5px solid white;}
-
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) { /* DESKTOP */
   a {font-size: 2vw;}
   
   .name {display:inline-block; padding-left: 10%; font-size: 4vw;}
@@ -66,7 +79,7 @@ div {border: 1.5px solid white;}
   }
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 415px) { /* mobile */
   a {font-size: 1vw;}
   
   .name {display: inline-block; padding-left: 20.1%; font-size: 1.7vw;}
