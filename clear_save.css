@@ -35,6 +35,7 @@ div {
 }
 
 ::selection {background: #C6DEFC; color: #000000}
+
 @media only screen and (max-width: 414px) { /* DESKTOP */
   a {font-size: 2vw;}
   
