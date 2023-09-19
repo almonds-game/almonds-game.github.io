@@ -24,13 +24,6 @@ p {
   color: #FFFFFF;
 }
 
-a:hover {
-  background: #C6DEFC;
-  color: #000000;
-
-  cursor: url("img/blockCursor.png"), auto;
-}
-
 ::selection {background: #C6DEFC; color: #000000;}
 
 @media only screen and (max-width: 414px) {
@@ -51,6 +44,12 @@ a:hover {
   #txtSmol{
     font-size: 1vw;
     line-height: 1.5vw;
+  }
+
+  a:hover {
+    background: #C6DEFC;
+    color: #000000;
+    cursor: url("img/blockCursor.png"), auto;
   }
 }
 

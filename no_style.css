@@ -20,10 +20,6 @@ a {
   color: #FFFFFF;
 }
 
-li:hover {
-  display: inline-block;
-}
-
 p {
   color: #FFFFFF;
 }
@@ -35,3 +31,9 @@ a:hover {
 }
 
 ::selection {background: #C6DEFC; color: #000000}
+
+@media only screen and (max-width: 414px) { /* DESKTOP */
+  li:hover {
+    display: inline-block;
+  }
+}

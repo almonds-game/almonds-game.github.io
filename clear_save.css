@@ -26,12 +26,6 @@ p {
   line-height:0.5;
 }
 
-a:hover {
-  background: #C6DEFC;
-  color: #000000;
-  cursor: url("img/blockCursor.png"), auto;
-}
-
 div {
   border: 1.5px solid white;
   height: 100%; *
@@ -42,6 +36,12 @@ div {
 
 @media only screen and (max-width: 414px) { /* DESKTOP */
   a {font-size: 2vw;}
+  
+  a:hover {
+    background: #C6DEFC;
+    color: #000000;
+    cursor: url("img/blockCursor.png"), auto;
+  }
   
   .name {display:inline-block; padding-left: 10%; font-size: 4vw;}
   .descContainer {
