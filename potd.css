@@ -24,6 +24,12 @@ p {
   color: #FFFFFF;
 }
 
+a:hover {
+  background: #C6DEFC;
+  color: #000000;
+  cursor: url("img/blockCursor.png"), auto;
+}
+
 ::selection {background: #C6DEFC; color: #000000;}
 
 @media only screen and (max-width: 414px) {
@@ -46,11 +52,6 @@ p {
     line-height: 1.5vw;
   }
 
-  a:hover {
-    background: #C6DEFC;
-    color: #000000;
-    cursor: url("img/blockCursor.png"), auto;
-  }
 }
 
 @media only screen and (min-width: 415px) {
