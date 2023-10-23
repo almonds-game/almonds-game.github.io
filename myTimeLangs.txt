@@ -1,0 +1,26 @@
+[ja]
+[ja]
+
+[fr]
+Bonne nu--it
+Bonne nuit
+Bonne nu-it
+
+
+[de]
+Gu--te Nacht
+Schlaf fut
+Gu--te-nacht
+
+
+[ara]
+
+[esp]
+Bue-enas Noches
+Duerme bien
+
+
+[gr]
+
+[ja]
+
