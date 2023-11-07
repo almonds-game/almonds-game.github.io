@@ -48,8 +48,8 @@ ul { list-style-type: none; }
 @media only screen and (max-width: 414px) { /* mobile */
   a {font-size: 2vw;}
  
-  .header {color: #FFF; text-align: center; font-size: 1.7vw;}
-  .title {color: #FFF; text-align: center; font-size: 1.3vw;}
+  .header {color: #FFF; text-align: center; font-size: 3vw;}
+  .title {color: #FFF; text-align: center; font-size: 1.5vw;}
 
   .descContainer {
     margin-left:10.1%;
@@ -96,3 +96,5 @@ ul { list-style-type: none; }
   .categoryTxt {
     font-size: 1.2vw;
     padding-left: 1vw;
+  }
+}
