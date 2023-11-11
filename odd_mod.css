@@ -1,0 +1,18 @@
+@import url("clear_save.html") 
+
+
+ul { list-style-type: none; }
+
+@media only screen and (max-width: 414px) { /* mobile */
+  a {font-size: 2vw;}
+ 
+  .header {color: #FFF; text-align: center; font-size: 3vw;}
+  .title {color: #FFF; text-align: center; font-size: 1.5vw;}
+}
+
+@media only screen and (min-width: 415px) { /* DESKTOP */
+  a {font-size: 1vw;}
+  
+  .header {color: #FFF; text-align: center; font-size: 1.7vw;}
+  .title {color: #FFF; font-size: 1.3vw;}
+}

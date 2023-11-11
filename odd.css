@@ -30,7 +30,7 @@ p {
 div {
   border: 1.5px solid white;
   height: 100%; 
-  width: 100%;
+  width: 200%;
   padding: 0; margin: 0;
   cursor: url("img/blockCursor.png"), auto;
 }
@@ -53,7 +53,7 @@ ul { list-style-type: none; }
 
   .descContainer {
     margin-left:10.1%;
-    width:79.3%;
+    width:79.3%; /* original: 79.3% */
   }
 
   .desc {
@@ -79,11 +79,13 @@ ul { list-style-type: none; }
   .title {color: #FFF; font-size: 1.3vw;}
 
   .descContainer {
+    display: flex;
     margin-left:20.1%;
-    width:59.6%;
+    width:30%; /* original: 59.6% */
   }
   
   .desc {
+    flex: 1;
     margin-left: 2vw;
     border-color: #1F2229;
     width: 59.6%;
