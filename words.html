@@ -12,15 +12,26 @@
     <link rel="stylesheet" href="odd.css">
 
     <style>
-      p { line-height:1.5; }
+    p { line-height:1.5; }
+    @media only screen and (min-width: 415px) { /* DESKTOP */
       .descContainer {
         margin-left:20.1%;
         width:59.1%; /* original: 59.6% */
+        }
       }
+
+      
+    @media only screen and (max-width: 414px) { /* mobile */
+      .header { font-size: 4vw; }
+      .descContainer {
+        margin-left:10.1%;
+        width:220%;
+      }
+    }
     </style>
 
     <title>Contemporary Colloquy</title>
-    <h1 style="text-align: center; color:#FFFFFF">My Big Book of Big Words!</h1>
+    <h1 class="header" style="text-align: center;">My Big Book of Big Words!</h1>
   </head>
   
   <body>
@@ -239,7 +250,8 @@
         </p>
       </div>
     </div>
-
+  <br>
+  <br>
   </body>
 
 
